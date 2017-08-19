@@ -1,29 +1,73 @@
 <!doctype html>
 <html lang="en-US">
     <head>
-        <title>HTML page</title>
+        <title>HTML page - Small</title>
         <meta charset="utf-8">
+        <style type="text/css">
+            body{background: #eeeeee; margin: 0px; font-size: 14px;}
+            a:link{color:#41b7d8;}
+            a:visited{color:#41b7d8;}
+            a:hover{color:blue;}
+            figure{margin: 0px; display: inline;}
+            header{padding: 15px; font-size: 1.5em;}
+            article{background: #ffffff; padding: 15px; font-size: 1.5em;}
+            h1{font-size: 2.25em;}
+            h3{font-size: 1.25em;}
+            nav#paging-bottom a{padding: 15px; font-size: 2em;}
+            footer{padding: 15px; font-size: 1.5em;}
+        </style>
     </head>
     <body>
         <header>
-            This is header
-            <img src="data:image/png;base64,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" width="50"/>
+            <figure><a href=""><img src="https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/logo.svg" width="143"/></a></figure>
+            <figure><a href=""><img src="https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/search-icon.svg" width="30"/></a></figure>
+            <a href="">MENU</a>
         </header>
-        <nav>
-            Nav 1
-            Nav 2
-            Nav 3
-            Nav 4
-        </nav>
         <article>
-            <section>
-                Section one Bla Bla Bla and Yada Yada Yada
-            </section>
-            <aside>
-                Here is the commercial area
-            </aside>
-            <p>Blu Blu Blu Blu Blu Blu Blu Blu </p>
+            <h1>Designing The Perfect Feature Comparison Table</h1>
+            <h3>
+                By 
+                <a href="">Vitaly Friedman</a>
+            </h3>
+            <hr/>
+            <figure><img src="https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-time.svg" width="20"/></figure>
+            August 15th, 2017<br/>
+            <figure><img src="https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-tags.svg" width="20"/></figure>
+            <a href="">Design Patterns,</a>
+            <a href="">E-CommerceUser</a> 
+            <a href="">Experience</a><br/>
+            <figure><img src="https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/icon-meta-comments.svg" width="20"/></figure>
+            <a href="">1 Comment</a>
+            <p>
+                <i>Not all products are created equal. While we repeatedly buy some products almost mindlessly, for others, we take a lot of time to make a purchasing decision.</i>
+                <figure><a href=""><img src="https://www.smashingmagazine.com/wp-content/uploads/2017/08/accessibility-guidelines-500px-opt.png" width="100%"/></a></figure>
+                For a price tag that meets a certain threshold or if we are particularly invested in the quality of a product, we want to be absolutely 
+                certain that we are making the right choice and are getting a good product for a good price. That's where a feature comparison table makes all the difference.
+            </p>
+            <div>
+                <a href="#">Read more...</a>
+            </div>
+            <nav id="paging-bottom">
+                <a href="#">1</a> 
+                <a href="#">2</a> 
+                <a href="#">3</a> 
+                <a href="#">4</a> 
+                <a href="#">5</a> 
+                <a href="#">6</a>
+                <a href="#">next &raquo;</a>
+            </nav>
         </article>
-        <footer>The footer of the page</footer>
+        <footer>
+            <p>
+                With a commitment to quality content for the design community.<br/>
+                Founded by Vitaly Friedman and Sven Lennartz. 2006-2017.<br/>
+                Made in Germany. 
+                <img src="icn_write" width="20px;"/>
+                <a href="#">Write for us</a> -
+                <a href="#">Contact us</a> -
+                <a href="#">Datenschutzerklärung</a> -
+                <a href="#">Impressum.</a>
+            </p>
+        </footer>
     </body>
 </html>
