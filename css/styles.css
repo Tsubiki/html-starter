@@ -1,3 +1,17 @@
-div{
-    color: blue;
-}
+@import url("_header.css");
+@import url("_fonts.css");
+
+body{ font-family: "Encode Sans", sans-serif; background: #ffffff; margin: 0px; font-size: 14px;}
+a:link{color:#41b7d8;}
+a:visited{color:#41b7d8;}
+a:hover{color:blue;}
+figure{margin: 0px; display: inline;}figure{margin: 0px; display: inline;}
+header{background: #eeeeee; padding: 15px;}
+article{padding: 15px; font-size: 1.25em;}
+article h1 link:a{color:#000000 !important;}
+article figure{margin: auto; display: block;}
+h1{font-size: 2em;}
+h2{font-size: 1.5em;}
+h3{font-size: 1.25em;}
+nav#paging-bottom a{padding: 15px; font-size: 1.25em;}
+footer{padding: 15px; font-size: 1em;}       
