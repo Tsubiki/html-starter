@@ -1,0 +1,54 @@
+header {
+    padding: 0px;
+    margin: 0px;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+    border-right: 1px solid #cccccc; 
+}
+header nav ul li a:link{
+    padding: 20px 15px 5px 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}
+header nav ul li a:hover{
+    background-color: #ffff66;
+}
+/*header nav ul li a:visited{
+    padding: 20px 0px 5px 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+}*/
+header nav ul li a.logo{
+    padding: 40px 10px 0px 0px;
+    display: inline;
+}
+header nav ul li a.logo:hover{
+    background: none;
+}
+header nav ul li.noBorder{
+    border-right: none;
+    background-color: #ffffff;
+}
+/* social icons */
+#social_icons{
+    float: left;
+}
+.social_icns{
+    background: url('../img/channels.svg');
+    display: block;
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+#icn_rss{
+    
+}
+#search_area{
+    float: right;
+}
